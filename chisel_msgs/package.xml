@@ -1,0 +1,21 @@
+<package>
+  <name>chisel_msgs</name>
+  <version> 0.0.0 </version>
+  <description>
+    chisel_msgs are the ROS messages required for chisel_ros
+  </description>
+  <maintainer email="mklingen@andrew.cmu.edu"/>
+  <author>Matt Klingensmith</author>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+</package>
+
+
